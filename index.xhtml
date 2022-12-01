@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "HTTP://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="container">
+        
+        <div id="calculator"><h2>CALCULATOR</h2>
+            <div id="screen_area">
+                <input type="text" name="output" id="screen" placeholder="00" readonly="true"/>
+            </div>
+            <div id="button_area">
+                    <button onclick="clr()" class="operator">C</button>
+                    <button onclick="del()" class="operator">DEL</button>
+                    <button onclick="display('%')">%</button>
+                    <button onclick="display('/')" class="operator">/</button>
+                    <button onclick="display('7')">7</button>
+                    <button onclick="display('8')">8</button>
+                    <button onclick="display('9')">9</button>
+                    <button onclick="display('*')" class="operator">*</button>
+                    <button onclick="display('4')">4</button>
+                    <button onclick="display('5')">5</button>
+                    <button onclick="display('6')">6</button>
+                    <button onclick="display('-')" class="operator">-</button>
+                    <button onclick="display('1')">1</button>
+                    <button onclick="display('2')">2</button>
+                    <button onclick="display('3')">3</button>
+                    <button onclick="display('+')" class="operator">+</button>
+                    <button onclick="display('.')">.</button>
+                    <button onclick="display('0')">0</button>
+                    <button onclick="calculate()" id="equal" class="operator">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="myscript.js"></script>
+</body>
+
+</html>
