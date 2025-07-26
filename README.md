@@ -24,6 +24,13 @@ A web-based calculator application for performing basic arithmetic operations.
 
 ![Calculator Screenshot](screenshot.png)
 
+
 ## License
 
-This project is for educational purposes only.
+This project is licensed under the Educational Community License, Version 2.0 (ECL-2.0). See the [LICENSE](./LICENSE) file for details.
+
+**Key Points:**
+- You may use, modify, and redistribute the code for educational and non-commercial purposes only.
+- Redistributions must retain the copyright notice, license, and disclaimer.
+- Products derived from this software may not be called "calculator-web" or use that name without written permission.
+- The software is provided "as is" without warranty; see the LICENSE file for full details.
